@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-color: #f6f3f3;font-family: Monaco,sans-serif ">
+
+<h1 style="text-align: center; ">
+    Добавьте новую комнату:
+</h1>
+<br/>
+<form th:action="@{/booking/newRoom}" th:method="post" th:object="${room}">
+
+    <label for="name">Введите имя:</label>
+    <input type="text" id="name" th:field="*{name}">
+    <br/>
+    <label for="capacity">Введите вместительность:</label>
+    <input type="text" id="capacity" th:field="*{capacity}">
+    <br/>
+    <label for="location">Введите локацию:</label>
+    <input type="text" id="location" th:field="*{location}">
+    <br/>
+    <br/>
+    <br/>
+    <button type="submit">Добавить</button>
+
+</form>
+
+</body>
+</html>
