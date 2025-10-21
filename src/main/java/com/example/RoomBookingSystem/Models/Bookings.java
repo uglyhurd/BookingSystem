@@ -1,6 +1,7 @@
 package com.example.RoomBookingSystem.Models;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Pattern;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
@@ -27,11 +28,21 @@ public class Bookings {
 
     @Column(name = "start_time")
     @Temporal(TemporalType.TIME)
+    @DateTimeFormat(pattern = "HH:mm:ss")
     private Date start_time;
 
     @Column(name = "end_time")
     @Temporal(TemporalType.TIME)
+    @DateTimeFormat(pattern = "HH:mm:ss")
     private Date end_time;
+
+    public Room getRoom() {
+        return room;
+    }
+
+    public void setRoom(Room room) {
+        this.room = room;
+    }
 
     @ManyToOne()
     @JoinColumn(name = "roomb_id")

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room</title>
+</head>
+<body style="background-color: #f6f3f3;font-family: Monaco,sans-serif ">
+
+<div style="text-align: center">
+    <h1>Забронировать:</h1>
+    <br/>
+    <h2 th:text="${room.getName()}"></h2>
+</div>
+<br/>
+<br/>
+<form th:action="@{/booking/bookAroom/{roomId}(roomId=${room.getRoom_id()})}" th:method="post" th:object="${booking}">
+
+    <label for="username">Введите ФИО</label>
+    <input type="text" name="username" id="username" th:field="*{username}">
+    <label for="end_time">Конец бронирования(Введите как hh:mm:ss)</label>
+    <input type="text" name="end_time" id="end_time" th:field="*{end_time}">
+    <label for="start_time">Начало бронирования(Введите как hh:mm:ss)</label>
+    <input type="text" name="start_time" id="start_time" th:field="*{start_time}">
+
+    <br/>
+    <button type="submit">Отправить</button>
+
+</form>
+</body>
+</html>

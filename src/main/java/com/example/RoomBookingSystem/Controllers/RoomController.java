@@ -1,14 +1,15 @@
 package com.example.RoomBookingSystem.Controllers;
 
+import com.example.RoomBookingSystem.Models.Bookings;
 import com.example.RoomBookingSystem.Models.Room;
 import com.example.RoomBookingSystem.Services.RoomService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
+
+import java.time.LocalDate;
+import java.util.Date;
 
 @Controller
 @RequestMapping("/booking")
@@ -33,5 +34,17 @@ public class RoomController {
         roomService.saveRoom(room);
 
         return "/BookingMenu";
+    }
+
+    @GetMapping("/getRoom/{id}")
+    public String getRoom(Model model, @PathVariable("id") int id){
+
+
+        model.addAttribute("room", roomService.getRoom(id));
+        model.addAttribute("booking", new Bookings());
+        model.addAttribute("date", LocalDate.now());
+
+
+        return "Room";
     }
 }

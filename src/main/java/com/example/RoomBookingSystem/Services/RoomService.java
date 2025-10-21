@@ -5,6 +5,9 @@ import com.example.RoomBookingSystem.Repositories.RoomRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+import java.util.Optional;
+
 @Service
 @Transactional(readOnly = true)
 public class RoomService {
@@ -21,5 +24,13 @@ public class RoomService {
     }
 
 
+    public List<Room> allRooms(){
+        return roomRepository.findAll();
+    }
+
+    public Room getRoom(int id){
+        Optional<Room> room = roomRepository.findById(id);
+        return room.orElse(null);
+    }
 
 }

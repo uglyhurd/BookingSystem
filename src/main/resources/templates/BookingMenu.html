@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Booking Menu</title>
+    <link rel="stylesheet" href="/style/style1.css">
 </head>
 <body style="background-color: #f6f3f3;font-family: Monaco,sans-serif ">
+<div style="position: fixed; top: 20px; right: 20px; border:solid 1px;border-radius: 40px" class="dropdown">
+    <a href="#"><img th:src="@{/images/UserProfile.png}" alt="User" width="40px" height="40px" style="padding: 3px 5px;"
+                     class="profile-user"></a>
+    <div class="dropdown-content">
+        <a th:href="@{/booking/allBooking}">Все бронирования</a>
+    </div>
+</div>
 <h1 style="text-align: center">Добрый день! <br/>Выберите дату:</h1>
 
 <form th:action="@{/booking/getData}" method="get" style="background-color: #f6f3f3;display: flex;justify-content: center">
