@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>all Rooms</title>
+    <link rel="stylesheet" href="/style/styleRooms.css">
+</head>
+<body style="background-color: #f6f3f3;font-family: Monaco,sans-serif ">
+
+    <div style="text-align: center">
+        <h1 th:text="${date}"></h1>
+    </div>
+    <br/>
+    <br/>
+    <div th:each="room:${rooms}">
+        <a th:text="${room.name} + ', Вместительность: ' + ${room.capacity} + ', Локация: ' + ${room.location}"
+        th:href="@{/booking/getRoom/{id}(id=${room.getRoom_id()})}">
+        </a>
+        <br/>
+        <br/>
+    </div>
+
+</body>
+</html>
