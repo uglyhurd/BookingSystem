@@ -28,12 +28,12 @@ public class Bookings {
 
     @Column(name = "start_time")
     @Temporal(TemporalType.TIME)
-    @DateTimeFormat(pattern = "HH:mm:ss")
+    @DateTimeFormat(pattern = "HH:mm")
     private Date start_time;
 
     @Column(name = "end_time")
     @Temporal(TemporalType.TIME)
-    @DateTimeFormat(pattern = "HH:mm:ss")
+    @DateTimeFormat(pattern = "HH:mm")
     private Date end_time;
 
     public Room getRoom() {
@@ -47,6 +47,8 @@ public class Bookings {
     @ManyToOne()
     @JoinColumn(name = "roomb_id")
     private Room room;
+
+
 
     public Bookings(Date end_time, Date date, Date start_time, String username) {
         this.end_time = end_time;

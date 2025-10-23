@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>all bookings</title>
+</head>
+<body style="background-color: #f6f3f3;font-family: Monaco,sans-serif ">
+
+<div style="text-align: center; ">
+    <h1>Все бонирования</h1>
+</div>
+
+<br/>
+<br/>
+
+<div th:each="bookin:${bookings}">
+    <a th:text="${bookin.date} + ', ' + ${bookin.room.name}"></a>
+</div>
+
+</body>
+</html>

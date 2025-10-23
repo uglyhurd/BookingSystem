@@ -13,6 +13,8 @@
     <br/>
     <br/>
     <div th:each="room:${rooms}">
+        <hr>
+        <br/>
         <a th:text="${room.name} + ', Вместительность: ' + ${room.capacity} + ', Локация: ' + ${room.location}"
         th:href="@{/booking/getRoom/{id}(id=${room.getRoom_id()})}">
         </a>

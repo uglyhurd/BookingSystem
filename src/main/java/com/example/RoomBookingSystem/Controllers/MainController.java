@@ -50,6 +50,15 @@ public class MainController {
     }
 
 
+    //   /booking/allBooking
 
 
+    @GetMapping("/allBooking")
+    public String showBookings(Model model){
+        model.addAttribute("bookings", bookingService.allBookings());
+
+
+
+        return "allBookings";
+    }
 }

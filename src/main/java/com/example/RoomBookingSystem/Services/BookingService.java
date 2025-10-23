@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
 import java.util.Date;
+import java.util.List;
 
 @Service
 @Transactional(readOnly = true)
@@ -28,6 +29,9 @@ public class BookingService {
         bookingRepository.save(bookings);
     }
 
+    public List<Bookings> allBookings(){
+        return bookingRepository.findAllByOrderByDateAsc();
+    }
 
 
 }
