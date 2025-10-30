@@ -47,4 +47,25 @@ public class RoomController {
 
         return "Room";
     }
+
+    @GetMapping("/allRooms")
+    public String allRooms(Model model){
+        model.addAttribute("rooms", roomService.allRooms());
+        model.addAttribute("counter", roomService.roomCounter());
+        return "allRoomsCRUD";
+
+    }
+    @GetMapping("/showRoom/{id}")
+    public String showRoom(@PathVariable("id") int id ,Model model){
+        model.addAttribute("room", roomService.showRoom(id));
+//        if(roomService.showRoom(id).isPresent()){
+        model.addAttribute("roomBookings", roomService.showRoom(id).get().getBookingsList());
+//        } else if (roomService.showRoom(id).isEmpty()){
+//
+//            model.addAttribute("roomBookings", null);
+//        }
+
+        return "showRoom";
+    }
+
 }

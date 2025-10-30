@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="501bc6e8-0a5c-45b4-acab-55996cc3bd06" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/allRoomsCRUD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/showRoom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Controllers/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Controllers/RoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Repositories/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Repositories/BookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Services/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Services/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Services/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Services/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/BookingMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/BookingMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/BookingMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/BookingMenu.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;uglyhurd&quot;,
+      &quot;author&quot;: &quot;uglyhurd&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;uglyhurd&quot;,
+    &quot;author&quot;: &quot;uglyhurd&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/uglyhurd/BookingSystem.git&quot;,
+    &quot;accountId&quot;: &quot;959f3e2c-17d9-48de-81e1-6bbca0f14485&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;fa9e00ff&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="344f1OvHuw6tyaTT2iNsChYnxZ6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven.RoomBookingSystem [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.RoomBookingSystem [org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.RoomBookingSystemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hurd/Downloads/RoomBookingSystem 2&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/Images" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/Images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RoomBookingSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="RoomBookingSystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.RoomBookingSystem.RoomBookingSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19416.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19416.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="501bc6e8-0a5c-45b4-acab-55996cc3bd06" name="Changes" comment="" />
+      <created>1760477548362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760477548362</updated>
+      <workItem from="1760477549409" duration="189000" />
+      <workItem from="1760536547680" duration="1153000" />
+      <workItem from="1760540363536" duration="1625000" />
+      <workItem from="1760629583706" duration="17841000" />
+      <workItem from="1760817698026" duration="5028000" />
+      <workItem from="1761062958308" duration="14912000" />
+      <workItem from="1761081181193" duration="990000" />
+      <workItem from="1761237401010" duration="10266000" />
+      <workItem from="1761251581287" duration="1627000" />
+      <workItem from="1761253213196" duration="655000" />
+      <workItem from="1761578064191" duration="2981000" />
+      <workItem from="1761659568779" duration="2611000" />
+      <workItem from="1761676593286" duration="993000" />
+      <workItem from="1761751520020" duration="627000" />
+      <workItem from="1761851242135" duration="5391000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

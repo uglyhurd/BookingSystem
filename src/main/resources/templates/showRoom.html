@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room</title>
+</head>
+<body style="background-color: #f6f3f3;font-family: Monaco,sans-serif ">
+<div style="text-align: center">
+    <h1 th:text="${room.get().name}"></h1>
+</div>
+<br/>
+<div th:if="${roomBookings.size() == 0}" style="text-align: center">
+    <p>Бронирование отсутствует</p>
+</div>
+<div th:if="${roomBookings.size() != 0}" style="text-align: center">
+    <div th:each="book:${roomBookings}">
+        <p th:text="${book.username}"></p>
+        <p th:text="'Продолжительность: ' + ${book.start_time} + ' - ' + ${book.end_time}"></p>
+        <br/>
+        <br/>
+    </div>
+</div>
+</body>
+</html>

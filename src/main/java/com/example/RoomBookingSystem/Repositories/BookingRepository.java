@@ -15,4 +15,7 @@ public interface BookingRepository extends JpaRepository<Bookings, Integer> {
     @Query("SELECT b FROM Bookings b join fetch b.room order by b.date asc")
     List<Bookings> findAllByOrderByDateAsc();
 
+
+
+
 }

@@ -11,13 +11,15 @@
                      class="profile-user"></a>
     <div class="dropdown-content">
         <a th:href="@{/booking/allBooking}">Все бронирования</a>
+        <hr>
+        <a th:href="@{/booking/allRooms}" style="padding-bottom: 20px">Все комнаты</a>
     </div>
 </div>
 <h1 style="text-align: center">Добрый день! <br/>Выберите дату:</h1>
 
-<form th:action="@{/booking/getData}" method="get" style="background-color: #f6f3f3;display: flex;justify-content: center">
+<form th:action="@{/booking/getData}" method="get" style="background-color: #f6f3f3;display: flex;justify-content: center;">
 
-    <input type="date" name="date" value="date" required>
+    <input type="date" name="date" value="date" required style="height: 30px; width: 150px">
 
     <button type="submit">Отправить</button>
 </form>
