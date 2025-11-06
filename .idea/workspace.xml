@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="501bc6e8-0a5c-45b4-acab-55996cc3bd06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/allRoomsCRUD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/showRoom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Controllers/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Controllers/RoomController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Repositories/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Repositories/BookingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Services/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Services/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Services/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/RoomBookingSystem/Services/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/BookingMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/BookingMenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/BookingMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/BookingMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/NewRoom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/NewRoom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/PatternUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/PatternUser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Room.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Room.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/allBookings.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/allBookings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/allRooms.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/allRooms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/allRoomsCRUD.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/allRoomsCRUD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/showRoom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/showRoom.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +148,8 @@
       <workItem from="1761659568779" duration="2611000" />
       <workItem from="1761676593286" duration="993000" />
       <workItem from="1761751520020" duration="627000" />
-      <workItem from="1761851242135" duration="5391000" />
+      <workItem from="1761851242135" duration="6193000" />
+      <workItem from="1762429300737" duration="335000" />
     </task>
     <servers />
   </component>
